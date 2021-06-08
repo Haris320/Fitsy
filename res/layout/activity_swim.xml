@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".swim">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:background="@drawable/gradient"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="278dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/swim" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:background="#D68D8D"
+            android:backgroundTint="#FFFFFF"
+            app:autoPlay="true"
+            app:showFullScreenButton="true"
+            app:videoId="5HLW2AI1Ink">
+
+        </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+        <EditText
+            android:id="@+id/freestyle_time_id"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="Freestyle Time (50 yd)"
+            android:inputType="number"
+            android:textColorHighlight="#D663FF"
+            android:textColorHint="#FAD987"
+            android:textSize="24sp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            app:autoPlay="true"
+            app:showFullScreenButton="true"
+            app:videoId="H16wDdWw3Cc">
+
+        </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+        <EditText
+            android:id="@+id/butterfly_time_id"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="Butterfly Time (50 yd)"
+            android:inputType="number"
+            android:textColorHighlight="#FFD66F"
+            android:textColorHint="#FAD987"
+            android:textSize="24sp" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            app:autoPlay="true"
+            app:showFullScreenButton="true"
+            app:videoId="r4MzxtBKyNE">
+
+        </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+        <EditText
+            android:id="@+id/backstroke_time"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed-light"
+            android:hint="Backstroke (50 yd)"
+            android:inputType="number"
+            android:textColorHighlight="#FDCE57"
+            android:textColorHint="#FAD987"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/update_time_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button"
+            android:backgroundTint="#F3C553"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Update Time"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:backgroundTint="@null"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progress_bar"
+            app:layout_constraintVertical_bias="0.26999998" />
+
+
+    </LinearLayout>
+</ScrollView>
