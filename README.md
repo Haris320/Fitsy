@@ -41,38 +41,6 @@ Here is everything I track for each account in Firebase
 <img src="https://user-images.githubusercontent.com/75679738/182495534-5af26164-9408-4e68-b437-f9778725e65d.png" width="400">
 
 
-
-## Getting Started
-
-### Dependencies
-
-    "@syncfusion/ej2": "^20.2.40",
-    "@syncfusion/ej2-react-grids": "^20.2.40",
-    "axios": "^0.27.2",
-    "epoch-timeago": "^1.1.9",
-    "ethers": "^5.6.9",
-    "git": "^0.1.5",
-    "npm-git-install": "^0.3.0",
-    "react-icons": "^4.4.0",
-    "react-router-dom": "^5.3.3",
-    "react-scripts": "^5.0.1",
-    "react-scroll": "^1.8.7",
-    "vercel": "^27.3.3",
-    "web3": "^1.7.4"
-    
-    //Dev
-    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
-    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
-    "@tailwindcss/forms": "^0.5.2",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.0",
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.6",
-    "vite": "^3.0.0"
-
-
 ## Help
 
 Reach out to me through my Discord, which is in the footer in my Ozric website, if you need any help or have questions
