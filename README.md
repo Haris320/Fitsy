@@ -22,7 +22,7 @@ The swim feature allows the user to store their times for freestyle, backstroke,
 
 ## Weight Lifting
 
-The swim feature allows the user to store their times for bench, deadlift, and bicep curl. They can then update their times as the improve, encouraging them to give it their all every time. It also provides video instructions to insure that our users have proper form and avoid any injuries
+The weight lifting feature allows the user to store their times for bench, deadlift, and bicep curl. They can then update their times as the improve, encouraging them to give it their all every time. It also provides video instructions to insure that our users have proper form and avoid any injuries
 
 <img src="https://user-images.githubusercontent.com/75679738/182493792-83437979-ea3e-459e-837c-029595a47c9c.png" width="200"> 
 
